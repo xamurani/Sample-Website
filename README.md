@@ -28,28 +28,31 @@ To set up this project locally, follow these steps:
    git clone https://github.com/xamurani/sample-website.git
    cd sample-website
 
-Open the index.html file in your preferred web browser to view the website.
+2. **Open the index.html file** in your preferred web browser to view the website.
 
-Edit the files:
+3. **Edit the files:**
 
-Modify the HTML content in index.html to update the structure and content.
-Edit styles.css for design changes and to customize the appearance.
-Update scripts.js for any additional interactivity or form validation logic.
-Contact Form
+- Modify the HTML content in index.html to update the structure and content.
+- Edit styles.css for design changes and to customize the appearance.
+- Update scripts.js for any additional interactivity or form validation logic.
+
+**Contact Form**
 The contact form uses basic JavaScript to validate whether all fields are filled before submission. If all fields are complete, the form will display a confirmation message. Otherwise, it will prompt the user to fill in all the fields.
 
-How the Form Works
-Name: A text input field for the user’s name.
-Email: A text input field for the user’s email address.
-Message: A textarea for the user to enter a message.
-Submit Button: When clicked, the form validates the input and shows a confirmation alert if everything is filled in.
-Future Improvements
-Backend Integration: The contact form is not currently connected to a backend to actually send emails or store messages. Implementing a backend API to handle form submissions would be a great next step.
-Enhanced Accessibility: Adding ARIA attributes and improving keyboard navigation for accessibility.
-Responsive Design: Further improvements for better mobile responsiveness.
-License
+**How the Form Works**
+- **Name:** A text input field for the user’s name.
+- **Email:** A text input field for the user’s email address.
+- **Message:** A textarea for the user to enter a message.
+- **Submit Button:** When clicked, the form validates the input and shows a confirmation alert if everything is filled in.
+
+**Future Improvements**
+- **Backend Integration:** The contact form is not currently connected to a backend to actually send emails or store messages. Implementing a backend API to handle form submissions would be a great next step.
+- **Enhanced Accessibility:** Adding ARIA attributes and improving keyboard navigation for accessibility.
+- **Responsive Design:** Further improvements for better mobile responsiveness.
+
+**License**
 This project is open source and available under the MIT License.
 
-Acknowledgments
-Inspiration and design ideas were based on basic front-end web development tutorials.
-Special thanks to the open-source community for resources and tools used in this project.
+**Acknowledgments**
+- Inspiration and design ideas were based on basic front-end web development tutorials.
+- Special thanks to the open-source community for resources and tools used in this project.
